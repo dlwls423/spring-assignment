@@ -1,7 +1,6 @@
 package com.sparta.springfirstassignment.Controller;
 
 
-import com.sparta.springfirstassignment.IncorrectPwException;
 import com.sparta.springfirstassignment.Service.PostService;
 import com.sparta.springfirstassignment.dto.PostRequestDto;
 import com.sparta.springfirstassignment.dto.PostResponseDto;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
